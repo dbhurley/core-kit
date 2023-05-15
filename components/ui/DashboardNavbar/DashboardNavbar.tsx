@@ -20,8 +20,8 @@ function classNames(
 
 const navigation = [
   { name: 'Dashboard', href: '/dashboard', current: false },
-  { name: 'Leads', href: '/dashboard/leads', current: false },
-  { name: 'Calendar', href: '/dashboard/calandar', current: false },
+  { name: 'Clients', href: '/dashboard/clients', current: false },
+  { name: 'Schedule', href: '/dashboard/calendar', current: false },
 ];
 
 const DashboardNavbar = () => {

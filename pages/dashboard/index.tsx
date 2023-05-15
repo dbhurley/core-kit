@@ -16,8 +16,6 @@ export default function Dashboard() {
         <main className='my-20'>
           <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <DummyLineChart/>
-          <DummyLineChart/>
-          <DummyLineChart/>
           </div>
         </main>
       </div>

@@ -52,7 +52,7 @@ const DummyLineChart = () => {
         />
         <Line
           type="monotone"
-          dataKey="value"
+          dataKey="Unstructured Sessions"
           stroke="#00bfa5"
           strokeWidth={2}
           dot={{ stroke: '#00bfa5', strokeWidth: 2, r: 5 }}

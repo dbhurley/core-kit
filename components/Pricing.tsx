@@ -51,16 +51,7 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-black sm:text-center sm:text-6xl">
-            No subscription pricing plans found. Create them in your{' '}
-            <a
-              className="text-azul underline"
-              href="https://dashboard.stripe.com/products"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Stripe Dashboard
-            </a>
-            .
+            No subscription pricing plans found.
           </p>
         </div>
       </section>
@@ -72,10 +63,10 @@ export default function Pricing({ products }: Props) {
         <div className="sm:flex sm:flex-col sm:align-center">
           
           <h1 className="text-4xl font-extrabold text-mainblack sm:text-center sm:text-6xl">
-            Pricing Plans
+            Customized Session Pricing
           </h1>
           <p className="mt-5 text-xl text-gray-600 sm:text-center sm:text-2xl max-w-2xl m-auto">
-            Plans designed for every stage of your business. Choose the one that fits.
+            Plans designed for every step of your journey. Choose the one that fits.
           </p>
           <div className="relative self-center mt-6 bg-mainblack rounded-lg p-0.5 flex sm:mt-8 border border-gray-500">
             <button
