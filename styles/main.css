@@ -35,7 +35,18 @@ body {
 }
 
 a {
+  color:rgb(29, 171, 171);
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.bg-blue-200 {
+  background-color: rgb(236, 251, 252) !important;
+}
+.text-blue-400, .text-blue-600 {
+  color:rgb(29, 171, 171) !important;
+}
+.bg-blue-500 {
+  background-color: rgb(29, 171, 171) !important;
 }
 
 .animated {

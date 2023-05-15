@@ -14,7 +14,7 @@ export default function Team() {
             </h1>
           </div>
         </header>
-        <main className="my-20">
+        <main className="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
           <Table/>
         </main>
       </div>

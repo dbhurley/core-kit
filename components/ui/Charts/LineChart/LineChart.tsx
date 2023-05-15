@@ -11,18 +11,18 @@ import {
 } from 'recharts';
 
 const data = [
-  { name: 'Jan', value: Math.floor(Math.random() * 100) },
-  { name: 'Feb', value: Math.floor(Math.random() * 100) },
-  { name: 'Mar', value: Math.floor(Math.random() * 100) },
-  { name: 'Apr', value: Math.floor(Math.random() * 100) },
-  { name: 'May', value: Math.floor(Math.random() * 100) },
-  { name: 'Jun', value: Math.floor(Math.random() * 100) },
-  { name: 'Jul', value: Math.floor(Math.random() * 100) },
-  { name: 'Aug', value: Math.floor(Math.random() * 100) },
-  { name: 'Sep', value: Math.floor(Math.random() * 100) },
-  { name: 'Oct', value: Math.floor(Math.random() * 100) },
-  { name: 'Nov', value: Math.floor(Math.random() * 100) },
-  { name: 'Dec', value: Math.floor(Math.random() * 100) },
+  { name: 'Jan', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Feb', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Mar', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Apr', sessions: Math.floor(Math.random() * 100) },
+  { name: 'May', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Jun', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Jul', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Aug', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Sep', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Oct', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Nov', sessions: Math.floor(Math.random() * 100) },
+  { name: 'Dec', sessions: Math.floor(Math.random() * 100) },
 ];
 
 const DummyLineChart = () => {
@@ -52,7 +52,7 @@ const DummyLineChart = () => {
         />
         <Line
           type="monotone"
-          dataKey="Unstructured Sessions"
+          dataKey="sessions"
           stroke="#00bfa5"
           strokeWidth={2}
           dot={{ stroke: '#00bfa5', strokeWidth: 2, r: 5 }}
