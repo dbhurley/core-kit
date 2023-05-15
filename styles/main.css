@@ -39,7 +39,7 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.bg-blue-200 {
+.bg-blue-200, .bg-blue-100 {
   background-color: rgb(236, 251, 252) !important;
 }
 .text-blue-400, .text-blue-600 {
