@@ -66,7 +66,7 @@ export default function Pricing({ products }: Props) {
             Customized Session Pricing
           </h1>
           <p className="mt-5 text-xl text-gray-600 sm:text-center sm:text-2xl max-w-2xl m-auto">
-            Plans designed for every step of your journey. Choose the one that fits.
+            Plans designed for every step of your journey. Choose the one that's right for your practice.
           </p>
           <div className="relative self-center mt-6 bg-mainblack rounded-lg p-0.5 flex sm:mt-8 border border-gray-500">
             <button
@@ -77,7 +77,7 @@ export default function Pricing({ products }: Props) {
                   : 'ml-0.5 relative w-1/2 border border-transparent text-white/80'
                 } rounded-md m-1 py-2 text-sm font-medium whitespace-nowrap focus:outline-none focus:z-10 sm:w-auto sm:px-8`}
             >
-              Monthly billing
+              Monthly
             </button>
             <button
               onClick={() => setBillingInterval('year')}
@@ -87,7 +87,7 @@ export default function Pricing({ products }: Props) {
                   : 'ml-0.5 relative w-1/2 border border-transparent text-white/80'
                 } rounded-md m-1 py-2 text-sm font-medium whitespace-nowrap focus:outline-none focus:z-10 sm:w-auto sm:px-8`}
             >
-              Yearly billing
+              Yearly
             </button>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function Pricing({ products }: Props) {
               <div
                 key={product.id}
                 className={cn(
-                  'rounded-lg shadow-sm divide-y divide-zinc-600 bg-azul',
+                  'rounded-lg shadow-sm divide-y divide-zinc-600 bg-blue-500',
                   {
                     'border-4 border-mainblack': product.name === subscription?.prices?.products?.name
                   }
