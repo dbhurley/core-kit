@@ -14,8 +14,8 @@ interface Props {
 export default function Layout({ children, meta: pageMeta }: Props) {
   const router = useRouter();
   const meta = {
-    title: 'Core Kit',
-    description: 'Brought to you by Vercel, Stripe, and Supabase.',
+    title: 'Life Coach AI',
+    description: 'Empowering people.',
     cardImage: '/og.png',
     ...pageMeta
   };

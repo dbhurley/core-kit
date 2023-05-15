@@ -5,14 +5,14 @@ export default function Table() {
               <div>
                 <div className="flex items-center gap-x-3">
                   <h2 className="text-lg font-medium text-gray-800 dark:text-white">
-                    Customers
+                    Clients
                   </h2>
                   <span className="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400">
-                    240 vendors
+                    240 active
                   </span>
                 </div>
                 <p className="mt-1 text-sm text-gray-500 dark:text-gray-300">
-                  These companies have purchased in the last 12 months.
+                  These clients have held sessions in the last 12 months.
                 </p>
               </div>
               <div className="flex items-center mt-4 gap-x-3">
@@ -56,7 +56,7 @@ export default function Table() {
                       d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <span>Add vendor</span>
+                  <span>Add Client</span>
                 </button>
               </div>
             </div>
@@ -66,10 +66,10 @@ export default function Table() {
                   View all
                 </button>
                 <button className="px-5 py-2 text-xs font-medium text-gray-600 transition-colors duration-200 sm:text-sm dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
-                  Monitored
+                  Structured
                 </button>
                 <button className="px-5 py-2 text-xs font-medium text-gray-600 transition-colors duration-200 sm:text-sm dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
-                  Unmonitored
+                  Unstructured
                 </button>
               </div>
               <div className="relative flex items-center mt-4 md:mt-0">
@@ -108,7 +108,7 @@ export default function Table() {
                             className="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
                           >
                             <button className="flex items-center gap-x-3 focus:outline-none">
-                              <span>Company</span>
+                              <span>Client</span>
                               <svg
                                 className="h-3"
                                 viewBox="0 0 10 11"
@@ -146,19 +146,19 @@ export default function Table() {
                             scope="col"
                             className="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
                           >
-                            About
+                            Quick Insight
                           </th>
                           <th
                             scope="col"
                             className="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
                           >
-                            Users
+                            Sessions
                           </th>
                           <th
                             scope="col"
                             className="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"
                           >
-                            License use
+                            Conversation Usage
                           </th>
                           <th scope="col" className="relative py-3.5 px-4">
                             <span className="sr-only">Edit</span>

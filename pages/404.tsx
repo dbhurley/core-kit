@@ -25,9 +25,9 @@ export default function Four0Four() {
                   </a>
                 </Link>
 
-                <Link href="https://github.com/grannybter/core-kit/issues">
+                <Link href="#">
                   <a target="_blank" className="group inline-flex items-center rounded-full bg-transparent px-4 py-1.5 font-semibold text-slate-700 transition hover:bg-gray-100">
-                    Contact support
+                    Got questions?
                     <Arrow stroke="black"/>
                   </a>
                 </Link>

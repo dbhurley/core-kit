@@ -33,33 +33,27 @@ import { useRouter } from 'next/router'
 const resources = [
   {
     name: 'Customer Support',
-    description: 'Get all of your questions answered in our forums on Github.',
-    href: 'https://github.com/grannybter/core-kit/issues',
+    description: 'Get all of your questions answered.',
+    href: '#',
     icon: ClipboardDocumentIcon
   },
   {
     name: 'Setup Guide',
-    description: 'Learn how to setup your project.',
-    href: 'https://github.com/grannybter/core-kit/blob/main/Setup.md',
+    description: 'Setup your Life Coach',
+    href: '#',
     icon: WrenchScrewdriverIcon
-  },
-  {
-    name: 'Github Repository',
-    description: 'View codebase on Github.',
-    href: 'https://github.com/grannybter/core-kit',
-    icon: ArchiveBoxIcon
   },
   {
     name: 'FAQ',
     description: "Got questions? We've got answers.",
-    href: "https://github.com/grannybter/core-kit#faq",
+    href: "#",
     icon: QuestionMarkCircleIcon
   }
 ];
 const recentQuestions = [
-  { id: 1, name: 'What is the licensing agreement for this boilerplate?', href: 'https://github.com/grannybter/core-kit#faq' },
-  { id: 2, name: 'How do I set up my environment?', href: 'https://github.com/grannybter/core-kit#faq' },
-  { id: 3, name: 'Can I use this boilerplate for commercial purposes?', href: 'https://github.com/grannybter/core-kit#faq' }
+  { id: 1, name: 'What is the cost?', href: '#' },
+  { id: 2, name: 'How do I set up my Life Coach?', href: '#' },
+  { id: 3, name: 'Do I need to see a human?', href: '#' }
 ];
 
 function classNames(
@@ -78,7 +72,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
-              <span className="sr-only">Core Kit</span>
+              <span className="sr-only">Life Coach AI</span>
               <Logo fill="#1c1c1c" />
             </a>
           </div>
@@ -110,7 +104,7 @@ export default function Navbar() {
               href="/pricing"
               className="text-base font-medium text-mainblack hover:text-mainblack/70"
             >
-              Pricing
+              Cost
             </a>
 
             <Popover className="relative">
@@ -190,7 +184,7 @@ export default function Navbar() {
                           </div>
                           <div className="mt-5 text-sm">
                             <a
-                              href="https://github.com/grannybter/core-kit#faq"
+                              href="#"
                               className="font-medium text-azul hover:text-azul/70"
                               target="_blank"
                             >
