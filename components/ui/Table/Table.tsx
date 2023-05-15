@@ -178,7 +178,7 @@ export default function Table() {
                             </div>
                           </td>
                           <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
-                            <div className="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800">
+                            <div className="inline px-3 py-1 text-sm font-normal rounded-full text-blue-600 gap-x-2 bg-blue-100 dark:bg-gray-800">
                               Active
                             </div>
                           </td>
@@ -242,7 +242,7 @@ export default function Table() {
                             </div>
                           </td>
                           <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
-                            <div className="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800">
+                            <div className="inline px-3 py-1 text-sm font-normal rounded-full text-blue-600 gap-x-2 bg-blue-100 dark:bg-gray-800">
                               Active
                             </div>
                           </td>
@@ -396,7 +396,7 @@ export default function Table() {
                             </div>
                           </td>
                           <td className="px-12 py-4 text-sm font-medium whitespace-nowrap">
-                            <div className="inline px-3 py-1 text-sm font-normal rounded-full text-emerald-500 gap-x-2 bg-emerald-100/60 dark:bg-gray-800">
+                            <div className="inline px-3 py-1 text-sm font-normal rounded-full text-blue-600 gap-x-2 bg-blue-100 dark:bg-gray-800">
                               Active
                             </div>
                           </td>
