@@ -10,4 +10,5 @@ const config: Config = {
   theme: {},
   plugins: [require("tailgrids/plugin")],
 };
+
 export default config;
